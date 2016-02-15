@@ -1,0 +1,81 @@
+/* universal styles */
+
+/*css reset*/
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* global styles */
+
+.centerme {
+	text-align: center;
+}
+
+/* ~~~~~~ page styles ~~~~~~ */
+
+.wholepage {
+	background: rgba(0,0,0,1);
+	max-width: 960px;
+	margin: 0 auto;
+	color: rgba(114,214,125,1);
+}
+
+h1 {
+	font-family: 'Rock Salt', cursive;
+	font-size: 3em;
+	color: rgba(255,255,255,.8);
+}
+
+p {
+	padding-bottom: 45px;
+}
+
+.listing {
+	list-style: none;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 35px;
+}
+
+.listing li {
+	padding: 10px;
+}
+
+main {
+	font-family: 'VT323', monospace;
+	font-size: 1.4em;
+	padding: 30px;
+}
+
+.signature {
+	padding-bottom: 45px;
+}
+
+/* "What is it?" segment formatting */
+details {
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	max-width: 700px;
+	margin: 0 auto ;
+	color: rgba(255,255,255,.8);
+}
+
+.expandme {
+	padding: 20px;
+	text-align: left;
+
+}
+
+.expandme p {
+	padding-bottom: 2%;
+	font-size: .8em;
+	font-style: italic;
+}
